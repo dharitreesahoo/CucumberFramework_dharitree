@@ -5,17 +5,12 @@ Feature: Signin
   I want to use this template for my feature file
 
   Background: User naviagates to app URL
-    Given I am on login page "https://www.toolsqa.com/automation-practice-form/"
+    Given I am on login page "https://s1.demo.opensourcecms.com/s/44"
   @sanity
-  Scenario: signin with valid credential
-    When I enter firstname "dharitree"
-    And I enter lastname "sahoo" 
- 
+  Scenario: signin with valid credential 
+    When I enter username "opensourcecrm" and password "opensourcecrm" 
+    
 
-  @sanity
-  Scenario: signin with valid credential
-    When I enter firstname "dharitree1"
-    And I enter lastname "sahoo1" 
  
 
 
